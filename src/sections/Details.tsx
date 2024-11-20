@@ -13,8 +13,8 @@ function Details() {
       {/* Contenedor de detalles */}
       <div className="w-full flex flex-col justify-center items-center gap-16 md:flex-row md:gap-8 lg:gap-16">
         {/* Sección: Fecha */}
-        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
-          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[15%] md:h-48">
+          <div className="flex items-center justify-center rounded-full w-16 md:w-20 lg:w-24">
             <CalendarIcon size="50" />
           </div>
           <div className="flex flex-col items-center gap-1">
@@ -26,8 +26,8 @@ function Details() {
         </div>
 
         {/* Sección: Horario */}
-        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
-          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[15%] md:h-48">
+          <div className="flex items-center justify-center rounded-full w-16 md:w-20 lg:w-24">
             <ClockIcon size="50" />
           </div>
           <div className="flex flex-col items-center gap-1">
@@ -44,8 +44,8 @@ function Details() {
         </div>
 
         {/* Sección: Ubicación */}
-        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
-          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[15%] md:h-48">
+          <div className="flex items-center justify-center rounded-full w-16 md:w-20 lg:w-24">
             <LocationIcon size="60" />
           </div>
           <div className="w-9/12 flex flex-col items-center gap-1 md:w-full">
