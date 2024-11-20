@@ -53,7 +53,7 @@ const Count: React.FC<CountdownProps> = ({ day }) => {
           </div>
           <p className="text-white text-xl">Días</p>
         </div>
-        <p className="text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0">
+        <p className="hidden text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0 md:block">
           :
         </p>
       </div>
@@ -65,7 +65,7 @@ const Count: React.FC<CountdownProps> = ({ day }) => {
           </div>
           <p className="text-white text-xl">Horas</p>
         </div>
-        <p className="text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0">
+        <p className="hidden text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0 md:block">
           :
         </p>
       </div>
@@ -77,7 +77,7 @@ const Count: React.FC<CountdownProps> = ({ day }) => {
           </div>
           <p className="text-white text-xl">Minutos</p>
         </div>
-        <p className="text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0">
+        <p className="hidden text-white text-xl font-bold px-8 transform rotate-90 md:pt-8 md:rotate-0 md:px-0 md:block">
           :
         </p>
       </div>

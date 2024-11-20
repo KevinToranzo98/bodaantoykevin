@@ -61,7 +61,7 @@ function Home() {
         {/* Sección central (texto) */}
         <div className="text-center flex flex-col items-center justify-center gap-4">
           <h3 className="text-[#6d7561] text-xl md:text-2xl lg:text-3xl font-medium">
-            Te invitamos a festejar nuestra boda!
+            ¡Te invitamos a festejar nuestra boda!
           </h3>
           <h1 className="text-[#6d7561] text-2xl md:text-4xl lg:text-5xl font-bold">
             Anto & Kevin
