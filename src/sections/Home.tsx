@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 function Home() {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const img = new Image();
-    img.src = '/fondo6.jpg';
+    img.src = "/fondo6.jpg";
     img.onload = () => setImageLoaded(true);
   }, []);
 
@@ -14,7 +14,7 @@ function Home() {
       {/* Fondo de baja calidad */}
       <div
         className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-          imageLoaded ? 'opacity-0' : 'opacity-40'
+          imageLoaded ? "opacity-0" : "opacity-40"
         }`}
         style={{
           backgroundImage: "url('/fondo6_lazy.jpg')",
@@ -24,7 +24,7 @@ function Home() {
       {/* Fondo de alta calidad */}
       <div
         className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-          imageLoaded ? 'opacity-40' : 'opacity-0'
+          imageLoaded ? "opacity-40" : "opacity-0"
         }`}
         style={{
           backgroundImage: "url('/fondo6.jpg')",
