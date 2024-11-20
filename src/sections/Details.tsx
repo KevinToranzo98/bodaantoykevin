@@ -4,45 +4,67 @@ import { LocationIcon } from '../assets/icons/LocationIcon';
 
 function Details() {
   return (
-    <div className="w-full m-auto flex flex-col items-center justify-center gap-10 bg-[#656c64] py-16 md:py-28">
-      <h2 className="text-white text-4xl">Detalles de la boda</h2>
-      <div className="w-full h-full flex flex-col justify-center  items-center gap-32 md:flex-row md:h-[12rem]">
-        <div className="w-[13rem] h-full flex flex-col items-center justify-between gap-5">
-          <div className="h-[3.5rem]">
+    <div className="w-full flex flex-col items-center justify-center gap-10 bg-[#656c64] py-16 px-4 md:py-28">
+      {/* Título */}
+      <h2 className="text-white text-2xl md:text-4xl font-semibold text-center">
+        DETALLES DE LA BODA
+      </h2>
+
+      {/* Contenedor de detalles */}
+      <div className="w-full flex flex-col justify-center items-center gap-16 md:flex-row md:gap-8 lg:gap-16">
+        {/* Sección: Fecha */}
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
+          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
             <CalendarIcon size="50" />
           </div>
-          <div className="h-full flex flex-col items-center gap-2">
-            <p className="text-primary">Fecha</p>
-            <p className="text-white">Sábado 12 de Abril 2025</p>
+          <div className="flex flex-col items-center gap-1">
+            <p className="text-primary text-lg md:text-xl font-medium">Fecha</p>
+            <p className="text-white text-sm md:text-base lg:text-lg">
+              Sábado 12 de Abril 2025
+            </p>
           </div>
         </div>
 
-        <div className="w-[13rem] h-full flex flex-col items-center justify-between gap-5">
-          <div className="h-[3.5rem]">
+        {/* Sección: Horario */}
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
+          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
             <ClockIcon size="50" />
           </div>
-          <div className="h-full flex flex-col items-center gap-2">
-            <p className="text-primary">Horario</p>
-            <p className="text-white">Comienza: 20:30</p>
-            <p className="text-white">Finaliza: 05:00</p>
+          <div className="flex flex-col items-center gap-1">
+            <p className="text-primary text-lg md:text-xl font-medium">
+              Horario
+            </p>
+            <p className="text-white text-sm md:text-base lg:text-lg">
+              Comienza: 20:30
+            </p>
+            <p className="text-white text-sm md:text-base lg:text-lg">
+              Finaliza: 05:00
+            </p>
           </div>
         </div>
 
-        <div className="w-[13rem] h-full flex flex-col items-center justify-between gap-5">
-          <div className="h-[3.5rem]">
-            <LocationIcon size="50" />
+        {/* Sección: Ubicación */}
+        <div className="flex flex-col items-center gap-4 text-center md:w-[20%] lg:w-[25%]">
+          <div className="flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24">
+            <LocationIcon size="60" />
           </div>
-          <div className="h-full flex flex-col items-center gap-2">
-            <a
-              href="https://www.google.com/maps/place/La+Quinta+Casona,+Celso+Barrios+3490,+X5014+C%C3%B3rdoba/data=!4m2!3m1!1s0x9432a32df996b257:0x49eea3e9a3acaacf?entry=gps&coh=192189&g_ep=CAESCjExLjEyNS4xMDIYACDXggMqUSw5NDI0MjUyMCw5NDIxMjQ5Niw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICQVI%3D"
-              className="text-primary text-lg underline"
-            >
+          <div className="w-9/12 flex flex-col items-center gap-1 md:w-full">
+            <p className="text-primary text-lg md:text-xl font-medium">
               Ubicación
-            </a>
-            <p className="text-white text-center">
-              Salón "La Quinta Casona" Celso Barrios 3490, X5014. Córdoba
-              Capital
             </p>
+            <a
+              href="https://www.google.com/maps/place/La+Quinta+Casona,+Celso+Barrios+3490,+X5014+C%C3%B3rdoba"
+              className="text-primary text-lg md:text-xl hover:text-primary/80"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="text-white underline text-sm md:text-base lg:text-lg">
+                Salón "La Quinta Casona"
+              </p>
+              <p className="text-white underline text-sm md:text-base lg:text-lg">
+                Celso Barrios 3490, X5014. Córdoba Capital
+              </p>
+            </a>
           </div>
         </div>
       </div>

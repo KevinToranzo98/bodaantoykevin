@@ -5,9 +5,9 @@ function ConfirmAttendance() {
       <a
         target="_blank"
         href="https://p02jvynd.forms.app/formularioinvitados"
-        className="text-center text-primary font-medium text-3xl underline"
+        className="text-center text-primary font-medium text-xl underline md:text-2xl"
       >
-        Confirma tu asistencia
+        Confirmá tu asistencia haciendo click acá
       </a>
     </div>
   );

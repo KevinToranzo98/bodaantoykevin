@@ -5,7 +5,7 @@ function DressCode() {
         Nuestro código de vestimenta es formal elegante
       </p>
       <p className="text-center text-[#656c64] text-4xl">
-        Vení con tu mejor outfit y disfruta de la celebración con nosotros!!
+        ¡Vení con tu mejor outfit y disfrutá de la celebración con nosotros!
       </p>
     </div>
   );
