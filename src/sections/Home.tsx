@@ -52,7 +52,7 @@ function Home() {
 
           {/* Imagen secundaria abajo a la derecha */}
           <img
-            className="absolute rounded-lg w-[70px] h-[85px] bottom-[-20px] right-[-80px] md:w-[80px] md:h-[100px] lg:w-[125px] lg:h-[150px] xl:w-[150px] xl:h-[200px] animate-float"
+            className="absolute rounded-lg w-[70px] h-[85px] bottom-[-20px] right-[-55px] md:w-[80px] md:h-[100px] lg:w-[125px] lg:h-[150px] xl:w-[150px] xl:h-[200px] animate-float"
             src="/Foto2.HEIC"
             alt="Imagen 3"
           />
