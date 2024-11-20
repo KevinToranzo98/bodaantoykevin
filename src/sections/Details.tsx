@@ -37,7 +37,7 @@ function Details() {
             <p className="text-white text-sm md:text-base lg:text-lg">
               Comienza: 20:30
             </p>
-            <p className="text-white text-sm md:text-base lg:text-lg">
+            <p className="w-full text-start text-white text-sm md:text-base lg:text-lg">
               Finaliza: 05:00
             </p>
           </div>
