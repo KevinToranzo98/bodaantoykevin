@@ -1,4 +1,4 @@
-import CardIcon from '../assets/icons/CardIcon';
+import CardIcon from "../assets/icons/CardIcon";
 
 function CardValue() {
   return (
@@ -29,6 +29,9 @@ function CardValue() {
         <div className="flex flex-col items-center gap-2">
           <p className="text-white text-lg md:text-xl lg:text-2xl font-medium">
             Valor tarjeta menor
+          </p>
+          <p className="text-white text-sm md:text-base lg:text-lg">
+            (a partir de 3 años)
           </p>
           <p className="text-white text-xl md:text-2xl lg:text-3xl font-semibold">
             $35.000

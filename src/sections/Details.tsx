@@ -35,7 +35,7 @@ function Details() {
               Horario
             </p>
             <p className="text-white text-sm md:text-base lg:text-lg">
-              Comienza: 20:30
+              Comienza a las 20:30
             </p>
             <p className="w-full text-center text-white text-sm md:text-base lg:text-lg">
               Finaliza: 05:00
@@ -53,7 +53,7 @@ function Details() {
               Ubicación
             </p>
             <a
-              href="https://www.google.com/maps/place/La+Quinta+Casona,+Celso+Barrios+3490,+X5014+C%C3%B3rdoba"
+              href="https://www.google.com/maps/place/La+Quinta+Casona/@-31.4586897,-64.1579892,17z/data=!3m1!4b1!4m6!3m5!1s0x9432a32df996b257:0x49eea3e9a3acaacf!8m2!3d-31.4586944!4d-64.1531183!16s%2Fg%2F11bzyxp6sm?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D"
               className="text-primary text-lg md:text-xl hover:text-primary/80"
               target="_blank"
               rel="noopener noreferrer"
