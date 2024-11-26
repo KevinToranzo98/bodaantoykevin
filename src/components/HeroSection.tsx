@@ -1,17 +1,23 @@
 import { Calendar } from 'lucide-react';
 import { PhotoGroup } from './PhotoGroup';
+import backgroundImage from '../src/assets/fondo6.jpg';
+import mainOne from '../src/assets/Foto1.HEIC';
+import mainTwo from '../src/assets/Foto3.JPEG';
+import photoOne from '../src/assets/Foto5.JPEG';
+import photoTwo from '../src/assets/Foto2.HEIC';
+import photoTree from '../src/assets/Foto4.JPEG';
 
 export function HeroSection() {
   const leftGroupPhotos = {
-    main: '../src/assets/Foto1.HEIC',
+    main: mainOne,
     floating: [
       {
-        src: '../src/assets/Foto5.JPEG',
+        src: photoOne,
         position: '-top-10 -left-10',
         delay: '0s',
       },
       {
-        src: '../src/assets/Foto2.HEIC',
+        src: photoTwo,
         position: '-bottom-10 -right-10',
         delay: '1s',
       },
@@ -19,10 +25,10 @@ export function HeroSection() {
   };
 
   const rightGroupPhotos = {
-    main: '../src/assets/Foto3.JPEG',
+    main: mainTwo,
     floating: [
       {
-        src: '../src/assets/Foto4.JPEG',
+        src: photoTree,
         position: '-bottom-10 -left-10',
         delay: '0.5s',
       },
@@ -38,7 +44,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('../src/assets/fondo6.jpg')",
+          backgroundImage,
           opacity: 0.3,
         }}
       >

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FloatingImage } from './FloatingImage';
 
 interface PhotoGroupProps {
@@ -11,18 +10,22 @@ interface PhotoGroupProps {
   className?: string;
 }
 
-export function PhotoGroup({ mainImage, floatingImages, className = '' }: PhotoGroupProps) {
+export function PhotoGroup({
+  mainImage,
+  floatingImages,
+  className = '',
+}: PhotoGroupProps) {
   return (
     <div className={`relative ${className}`}>
       {/* Main Image */}
       <div className="rounded-xl overflow-hidden shadow-2xl">
-        <img 
-          src={mainImage} 
-          alt="Main wedding photo" 
+        <img
+          src={mainImage}
+          alt="Main wedding photo"
           className="w-full h-[400px] object-cover"
         />
       </div>
-      
+
       {/* Floating Images */}
       {floatingImages.map((image, index) => (
         <FloatingImage

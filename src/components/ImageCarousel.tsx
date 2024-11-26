@@ -1,34 +1,41 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import { CameraIcon, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCallback } from 'react';
+import Galería_1 from 'src/assets/Galeria_1.jpg';
+import Galeria_2 from 'src/assets/Galeria_2.jpg';
+import Galeria_3 from 'src/assets/Galeria_3.jpg';
+import Galeria_4 from 'src/assets/Galeria_4.jpg';
+import Galeria_5 from 'src/assets/Galeria_5.jpg';
+import Galeria_6 from 'src/assets/Galeria_6.jpg';
+import Galeria_7 from 'src/assets/Galeria_7.jpg';
 
 const images = [
   {
-    url: 'src/assets/Galeria_1.jpg',
+    url: Galería_1,
     alt: 'Galeria_1',
   },
   {
-    url: 'src/assets/Galeria_2.jpg',
+    url: Galeria_2,
     alt: 'Galeria_2',
   },
   {
-    url: 'src/assets/Galeria_3.jpg',
+    url: Galeria_3,
     alt: 'Galeria_3',
   },
   {
-    url: 'src/assets/Galeria_4.jpg',
+    url: Galeria_4,
     alt: 'Galeria_4',
   },
   {
-    url: 'src/assets/Galeria_5.jpg',
+    url: Galeria_5,
     alt: 'Galeria_5',
   },
   {
-    url: 'src/assets/Galeria_6.jpg',
+    url: Galeria_6,
     alt: 'Galeria_6',
   },
   {
-    url: 'src/assets/Galeria_7.jpg',
+    url: Galeria_7,
     alt: 'Galeria_7',
   },
 ];
