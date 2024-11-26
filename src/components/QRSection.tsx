@@ -1,4 +1,5 @@
 import { Camera, Share2 } from 'lucide-react';
+import QR from '../assets/QR.svg';
 
 export function QRCodeSection() {
   const driveUrl = 'https://photos.app.goo.gl/j3b5pWgEbd6eq9vaA';
@@ -17,7 +18,7 @@ export function QRCodeSection() {
 
         <div className="rounded-2xl p-8 shadow-lg max-w-md mx-auto">
           <div className="flex flex-col items-center space-y-6">
-            <img width={180} height={180} src="src/assets/QR.svg" />
+            <img width={180} height={180} src={QR} />
 
             <div className="text-center space-y-4">
               <div className="flex items-center justify-center space-x-2 text-primary">
