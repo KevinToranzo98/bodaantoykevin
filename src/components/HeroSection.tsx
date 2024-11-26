@@ -1,11 +1,11 @@
 import { Calendar } from 'lucide-react';
 import { PhotoGroup } from './PhotoGroup';
-import backgroundImage from '../src/assets/fondo6.jpg';
-import mainOne from '../src/assets/Foto1.HEIC';
-import mainTwo from '../src/assets/Foto3.JPEG';
-import photoOne from '../src/assets/Foto5.JPEG';
-import photoTwo from '../src/assets/Foto2.HEIC';
-import photoTree from '../src/assets/Foto4.JPEG';
+import backgroundImage from '/src/assets/fondo6.jpg';
+import mainOne from '/src/assets/Foto1.jpg';
+import mainTwo from '/src/assets/Foto3.jpg';
+import photoOne from '/src/assets/Foto5.jpg';
+import photoTwo from '/src/assets/Foto2.jpg';
+import photoTree from '/src/assets/Foto4.jpg';
 
 export function HeroSection() {
   const leftGroupPhotos = {
@@ -55,8 +55,8 @@ export function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 py-20">
         <div className="grid md:grid-cols-3 gap-8 lg:gap-16 items-center justify-center text-center">
           <PhotoGroup
-            mainImage={leftGroupPhotos.main}
-            floatingImages={leftGroupPhotos.floating}
+            mainImage={leftGroupPhotos?.main}
+            floatingImages={leftGroupPhotos?.floating}
             className="transform md:translate-x-4"
           />
 

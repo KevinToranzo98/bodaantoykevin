@@ -1,13 +1,13 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import { CameraIcon, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCallback } from 'react';
-import Galería_1 from 'src/assets/Galeria_1.jpg';
-import Galeria_2 from 'src/assets/Galeria_2.jpg';
-import Galeria_3 from 'src/assets/Galeria_3.jpg';
-import Galeria_4 from 'src/assets/Galeria_4.jpg';
-import Galeria_5 from 'src/assets/Galeria_5.jpg';
-import Galeria_6 from 'src/assets/Galeria_6.jpg';
-import Galeria_7 from 'src/assets/Galeria_7.jpg';
+import Galería_1 from '/src/assets/Galeria_1.jpg';
+import Galeria_2 from '/src/assets/Galeria_2.jpg';
+import Galeria_3 from '/src/assets/Galeria_3.jpg';
+import Galeria_4 from '/src/assets/Galeria_4.jpg';
+import Galeria_5 from '/src/assets/Galeria_5.jpg';
+import Galeria_6 from '/src/assets/Galeria_6.jpg';
+import Galeria_7 from '/src/assets/Galeria_7.jpg';
 
 const images = [
   {
