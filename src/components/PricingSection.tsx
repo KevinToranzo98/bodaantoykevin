@@ -53,7 +53,7 @@ export function PricingSection() {
             <div className="p-8 text-center">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-gray-900">
-                  $35.000
+                  $36.300
                 </span>
                 <span className="text-gray-600">/niño</span>
               </div>
