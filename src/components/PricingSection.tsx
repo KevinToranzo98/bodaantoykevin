@@ -36,7 +36,7 @@ export function PricingSection() {
                 El valor puede variar según informe el salón. Si ya abonaste tu
                 tarjeta, el precio se congelará y no tendrás que pagar la
                 diferencia y si aún no abonaste tendrás que hacerlo con el
-                precio actualizado
+                precio actualizado.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export function PricingSection() {
                 El valor puede variar según informe el salón. Si ya abonaste tu
                 tarjeta, el precio se congelará y no tendrás que pagar la
                 diferencia y si aún no abonaste tendrás que hacerlo con el
-                precio actualizado
+                precio actualizado.
               </p>
             </div>
           </div>
