@@ -1,4 +1,4 @@
-import { CreditCard } from 'lucide-react';
+import { CreditCard } from "lucide-react";
 
 export function PricingSection() {
   return (
@@ -28,7 +28,7 @@ export function PricingSection() {
             <div className="p-8 text-center">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-gray-900">
-                  $76.150
+                  $78.000
                 </span>
                 <span className="text-gray-600">/persona</span>
               </div>
@@ -53,7 +53,7 @@ export function PricingSection() {
             <div className="p-8 text-center">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-gray-900">
-                  $38.075
+                  $39.000
                 </span>
                 <span className="text-gray-600">/niño</span>
               </div>
